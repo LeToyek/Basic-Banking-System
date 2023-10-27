@@ -72,18 +72,5 @@ UPDATE Transaksi
 SET keterangan = 'Transfer ke akun 2'
 WHERE transaksi_id = 1;
 
--- DELETE Action
--- Menghapus transaksi dengan ID 1
-DELETE FROM Transaksi
-WHERE transaksi_id = 1;
-
--- Menghapus nasabah dengan ID 1
-DELETE FROM Nasabah
-WHERE nasabah_id = 1;
-
--- Menghapus akun dengan saldo nol
-DELETE FROM Akun
-WHERE saldo = 0.00;
-
 
 
